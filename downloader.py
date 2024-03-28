@@ -143,6 +143,6 @@ def download_chapters(urls: list[str], dir: str, headless: bool = False) -> None
                     print(f'\r\x1b[2m<> Archiving   [\x1b[0m{i + 1}\x1b[2m/\x1b[0m{len(files)}\x1b[2m] \x1b[0m', end = '')
                 print()
     
-    print('\n\x1b[0m\x1b[2m<>\x1b[92m Process finished successfully.\x1b[0m')
+    print('\n\x1b[2m<>\x1b[0m\x1b[92m Process finished successfully.\x1b[0m')
 
 # EOF
